@@ -2,7 +2,6 @@
 Seja bem-vindo!
 Me siga no linkedin: www.linkedin.com/in/jvsdiniz
 
-
 ## Pré-requisitos | Instalação | Execução dos testes 📝
 
 ### Pré-Requisitos 📝
