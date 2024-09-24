@@ -192,4 +192,16 @@ describe('Central de Atendimento ao Cliente', () => {
         })
     });
 
+    it('Links que abrem em outra aba | Verifica que a politica de privacidade abre em outra aba sem necessidade de um clique', () => {
+        cy.get('#privacy a').should('have.attr', 'target', '_blank')
+    });
+
+    it('Links que abrem em outra aba | Acessa a página  da politica de privacidade removendo o target e então clicando no link', () => {
+        cy.get('#privacy a')
+        .invoke('removeAttr', 'target')
+        .click()
+
+        cy.contains('Talking About Testing').should('be.visible')
+    });
+
 })

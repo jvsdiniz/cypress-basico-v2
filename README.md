@@ -1,29 +1,19 @@
-# Testes automatizados com Cypress - Básico
+# Testes automatizados com Cypress - Básico 🚀
+Seja bem-vindo!
+Me siga no linkedin: www.linkedin.com/in/jvsdiniz
 
-👋 Seja bem-vindo(a)!
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## Pré-requisitos | Instalação | Execução dos testes 📝
 
-## O que você vai aprender
+### Pré-Requisitos 📝
+- Ter o Node.js e NPM instalado na máquina (foi usado a versão 20 do Node.js)
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+### Instalação 📝
+1. Clonar repositório | `git clone https://github.com/jvsdiniz/cypress-basico-v2.git`
+2. Executar no terminal o comando `npm i` para instalar as dependências do projeto
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+### Execução dos testes 📝
+- Executar no terminal o comando`npx cypress open` para abrir o menu do cypress e selecionar a feature desejada ou `npx cypress run` para executar todos os testes disponíveis
 
-## Vamos começar?
+- Para exercutar os testes simulando um dispositivo mobile execute o comando `npm run cy:open:mobile` para abrir o menu do cypress e selecionar a feature desejada ou `npm run test:mobile` para executar todos os testes disponiveis
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
-
-___
-
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
