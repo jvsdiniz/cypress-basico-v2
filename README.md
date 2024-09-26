@@ -17,4 +17,5 @@ Seja bem-vindo!
 - Para exercutar os testes simulando um dispositivo mobile execute o comando `npm run cy:open:mobile` para abrir o menu do cypress e selecionar a feature desejada ou `npm run test:mobile` para executar todos os testes disponiveis
 
 ## Certificado de conclusão
-![Certificado de conclusão](https://www.udemy.com/certificate/UC-b1946f7a-932e-48e0-abda-5712fd4d943a/)
+- Confira meu certificado de conclusão do curso abaixo:
+https://www.udemy.com/certificate/UC-b1946f7a-932e-48e0-abda-5712fd4d943a/
